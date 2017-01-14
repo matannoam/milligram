@@ -3,10 +3,12 @@
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
 a
+	border-bottom: .1em dotted $color-primary
 	color: $color-primary
 	text-decoration: none
-	transition: color 333
+	transition: color 333, border 333
 
 	&:focus,
 	&:hover
+		border-bottom: .1em solid $color-secondary
 		color: $color-secondary
